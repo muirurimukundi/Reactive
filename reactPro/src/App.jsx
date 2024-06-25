@@ -1,6 +1,12 @@
+import Hello from "./components/Hello";
+
 function App() {
 
-  return <div className="App"><p>Hello There!</p></div>
+  return <div className="App">
+
+      <Hello />
+    
+    </div>
 
 }
 
